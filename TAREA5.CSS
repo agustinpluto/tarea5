@@ -1,0 +1,60 @@
+body { 
+    background: black;
+    font-style: arial;
+    color: black
+}
+
+p {
+    font-family: arial;
+    color: black;
+}
+
+.titulo {
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;+
+}
+
+img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+#cajaGris {
+    width: 250px;
+    height: 250px;
+    background: darkslategray;
+    margin-left: 20%;
+    text-align: center;
+    cursor: progress;
+}
+
+#cajaRoja {
+    color: black;
+    width: 250px;
+    height: 250px;
+    background: red;
+    cursor: pointer;
+    text-align: center;
+}
+
+#cajaGris:hover {
+    background-color: coral;
+    color: black;
+}
+
+#cajaRoja:hover {
+    background-color: cadetblue;
+}
+
+#lista {
+    background-color: white;
+    color: black;
+    font-style: arial;
+}
+
+#cajaVioleta {
+    background-color: violet;
+    color: black;
+    font-style: arial;
+}
